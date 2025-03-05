@@ -1,0 +1,1 @@
+So it looks to me like this leetcode thing could be fun, let's find out then!
