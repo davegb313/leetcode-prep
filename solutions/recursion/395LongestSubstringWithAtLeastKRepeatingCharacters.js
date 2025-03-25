@@ -5,8 +5,6 @@
  */
 var longestSubstring = function (s, k) {
     let count = new Map();
-    let r = 0;
-    let l = 0;
     for (let i = 0; i < s.length; i++) {
         count.set(s[i], (count.get(s[i]) || 0) + 1);
     }
