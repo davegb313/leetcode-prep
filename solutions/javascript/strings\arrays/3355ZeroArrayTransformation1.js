@@ -17,7 +17,6 @@ var isZeroArray = function (nums, queries) {
 
     for (let i = 0; i < nums.length; i++) {
         count += diff[i]
-        console.log(nums[i], count)
         if (nums[i] - count > 0) {
             return false
         }
